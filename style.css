@@ -1,0 +1,57 @@
+/* General Styles for Body */
+body {
+    font-size: medium;
+    font-family: initial;
+    background-color: f4f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the Header */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+/* Style for Main Content */
+.main-content {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: floralwhite;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for Images */
+.image-style {
+    align-items: calc(20);
+    border-style: solid;
+    border-color: maroon;
+    border-width: 5px;
+    padding: 10px,20px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Button Style */
+.button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005f6b;
+}
